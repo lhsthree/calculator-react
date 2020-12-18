@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function KeyPad({handleClick}) {
 	return(
-		<div className="button">
+		<div className="buttons">
 			<button name="(" onClick={e => handleClick(e.target.name)}>(</button>
 			<button name="CE" onClick={e => handleClick(e.target.name)}>CE</button>
 			<button name=")" onClick={e => handleClick(e.target.name)}>)</button>
